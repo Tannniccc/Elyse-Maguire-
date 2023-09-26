@@ -1,0 +1,57 @@
+h1{
+    font-size: larger;
+    font-style: normal;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background: -webkit-linear-gradient(left, orange 20%, white 0%);
+    width: 80%;
+    height: 80%;
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.top{
+    width: 100%;
+    height: 12%;
+    background-color: red;
+}
+.bottom{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    width: 50%;
+    height:100%;
+}
+.info{
+    width: 50%;
+    height:100%;
+}
+
+img{
+    border-radius: 8px;
+}
+
+TEXT{
+    width: 3%;
+    height: 4%;
+    color: black;
+}
